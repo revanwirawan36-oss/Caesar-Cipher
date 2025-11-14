@@ -4,13 +4,16 @@ using namespace std;
 int main(){
     int n,ind=0;
     bool ada=false;
-    
+
+    cin >>n;
+
+    char kata[n];
     char newalp[52];
     char save[52];
-    string kata;
-    cin >> kata;
 
-    n=kata.length();
+    for(int i=0; i<n; i++){
+        cin >> kata[i];
+    }
     
     int k;
     cin >>k;
