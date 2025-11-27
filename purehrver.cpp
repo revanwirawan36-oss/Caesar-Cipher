@@ -63,7 +63,7 @@ int main(){
                 break;
             }
         } 
-    }
+    } //eh
     for(int i=0; i<n; i++){
         ada=false;
         for(int j=0; j<52; j++){
